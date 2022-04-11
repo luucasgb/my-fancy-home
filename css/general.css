@@ -25,22 +25,44 @@ body {
   color: #1e2022;
 }
 
+section {
+  margin-bottom: 16rem;
+}
 span {
   color: #1e2022;
 }
 
-a {
+a:link {
   text-decoration: none;
 }
 
 .container {
-  max-width: 120rem;
+  max-width: 60rem;
+  margin: 0 auto;
 }
 
 .primary-header {
   font-size: 4.4rem;
 }
 
-.hero-paragraph {
-  font-size: 3.6rem;
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
