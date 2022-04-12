@@ -99,25 +99,49 @@
 /*** ROOM SECTION ***/
 /* **************** */
 
-.room-img-box {
-  /* display: flex;
-  justify-self: center;
-  align-self: center; */
+.room-card::after {
 }
 
-.room--bedroom {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.2)
-    ),
-    url("../img/cover-minimal/space/bedroom-minimal.jpg");
-}
-
-.room-img-box:nth-child(3n) {
+.room-card:nth-child(3n) {
   grid-column: 1 / -1;
 }
 
+.room-card:hover .room-card-thumb .room-card-caption {
+  transform: translateY(-100%);
+}
+
+.room-card-thumb {
+  overflow: hidden;
+  position: relative;
+}
+
+.room-card-caption {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2.4rem 3.2rem;
+  gap: 4.8rem;
+  transform: translateY(-35%);
+  transition: all 0.6s;
+  z-index: 1;
+}
+
+.room-card-img {
+  width: 100%;
+}
+
+.room-card-btn:link,
+.room-card-btn:visited {
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.room-card-btn:hover,
+.room-card-btn:active {
+}
 /* **************** */
 /*** ITEM SECTION ***/
 /* **************** */
