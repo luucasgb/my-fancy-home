@@ -2,7 +2,9 @@
 /* GENERAL COMPONENTS SECTION */
 /* ************************** */
 
-* {
+*,
+*::before,
+*::after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -20,16 +22,12 @@ body {
   font-family: "Cormorant Garamond", sans-serif;
   line-height: 1;
   font-weight: 500;
-  /* font-style: italic; */
   font-size: 2.4rem;
   color: #1e2022;
 }
 
 section {
   margin-bottom: 16rem;
-}
-span {
-  color: #1e2022;
 }
 
 a:link {
@@ -75,18 +73,16 @@ a:link {
   grid-column: 1 / -1;
 }
 
-.card-caption {
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
   padding: 2.4rem 3.2rem;
   gap: 4.8rem;
-  transform: translateY(-35%);
   transition: all 0.6s;
 }
 
-.card-img {
-  width: 100%;
+.room-card {
+  background-size: cover;
 }

@@ -99,6 +99,10 @@
 /*** ROOM SECTION ***/
 /* **************** */
 
+.room-card--bedroom {
+  background-image: url(../img/cover-minimal/space/bedroom-minimal.webp);
+}
+
 .room-card-btn:link,
 .room-card-btn:visited {
   text-transform: uppercase;
