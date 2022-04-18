@@ -99,10 +99,6 @@
 /*** ROOM SECTION ***/
 /* **************** */
 
-.room-card:hover .card-thumb--room .card-caption--room {
-  /* transform: translateY(-100%); */
-}
-
 .room-card-btn:link,
 .room-card-btn:visited {
   text-transform: uppercase;
