@@ -69,6 +69,10 @@ a:link {
   grid-template-columns: repeat(5, 1fr);
 }
 
+.grid--center-v {
+  justify-items: center;
+}
+
 .card:nth-child(3n) {
   grid-column: 1 / -1;
 }
@@ -85,4 +89,6 @@ a:link {
 
 .room-card {
   background-size: cover;
+  width: 70%;
+  height: 70vh;
 }
