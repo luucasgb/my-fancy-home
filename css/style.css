@@ -103,10 +103,28 @@
   background-image: url(../img/cover-minimal/space/bedroom-minimal.webp);
 }
 
+.room-card--bathroom {
+  background-image: url(../img/cover-minimal/space/bathroom-minimal.webp);
+}
+
+.room-card--kitchen {
+  background-image: url(../img/cover-minimal/space/kitchen-minimal.webp);
+}
+
+.room-card--living-room {
+  background-image: url(../img/cover-minimal/space/living-room-minimal.webp);
+}
+
+.room-card--office {
+  background-image: url(../img/cover-minimal/space/office-minimal.webp);
+  background-position: bottom !important;
+}
+
 .room-card-btn:link,
 .room-card-btn:visited {
-  text-transform: uppercase;
-  color: inherit;
+  padding: 1.2rem 2.4rem;
+  background-color: transparent;
+  border: 2px solid #1e2022;
 }
 
 .room-card-btn:hover,
