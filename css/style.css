@@ -19,6 +19,7 @@
 
 .main-nav-link:link,
 .main-nav-link:visited {
+  text-transform: none;
   color: #1e2022;
 }
 
