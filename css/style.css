@@ -6,7 +6,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #f0f5f9;
   height: 9.6rem;
   padding: 0 4.8rem;
 }
@@ -84,7 +83,6 @@
 
 .hero-img-box h1,
 .hero-img-box p {
-  /* color: #fff; */
   grid-column: 2 / -1;
 }
 
@@ -125,11 +123,14 @@
 .room-card-btn:visited {
   padding: 1.2rem 2.4rem;
   background-color: transparent;
-  border: 2px solid #1e2022;
+  border: 2px solid var(--accent-black);
 }
 
 .room-card-btn:hover,
-.room-card-btn:active {
+.room-card-btn:active,
+.room-card-btn:focus {
+  color: var(--main-white);
+  background-color: var(--accent-black);
 }
 
 /* **************** */
